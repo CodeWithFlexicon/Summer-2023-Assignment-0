@@ -1,5 +1,6 @@
 function titleCaseEdit(title) {
-  title = title.split(" "); //Split divides a string using the pattern passed and creates an ordered array of substrings
+  //Split divides a string using the pattern passed and creates an ordered array of substrings
+  title = title.split(" "); 
   //Create a loop to go through each word and capitalize the first letter
   for(let i = 0; i < title.length; i++) {
     //substr returns a substring starting at whatever index is passed
